@@ -1,0 +1,28 @@
+# Installed Modules
+node_modules/
+
+# Temp Files
+.DS_Store
+.scripts
+/dump
+
+# IDE / Editors
+.vscode
+*~
+
+# Build Artifacts
+build/
+dist/
+docs/
+*.js
+!/packages/*/*.js
+!/packages/*/bin/*.js
+*.d.ts
+!/src/references.d.ts
+!/base/powerbi/powerbi.d.ts
+!/base/powerbi/references.d.ts
+build.out
+yarn-error.log
+lerna-debug.log
+.tmp
+.yarnclean
